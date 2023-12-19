@@ -8,6 +8,14 @@ if Gem.win_platform?
   end
 end
 
+# # Чтобы узнать, сколько байт в числе, воспользуемся методом size
+# number = 42
+# puts "В числе #{number} — #{number.size} байт"
+#
+# # Чтобы узнать, сколько байт в строке, воспользуемся методом bytesize
+# string = 'Василий'
+# puts "В строке \"#{string}\" — #{string.bytesize} байт"
+
 puts "Введите число или слово размер которого нужно определить"
 
 string = STDIN.gets.chomp
